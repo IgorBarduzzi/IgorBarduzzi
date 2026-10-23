@@ -37,14 +37,14 @@
   </tr>
   <tr>
     <td width="50%" valign="top">
+      <h3>⚡ <a href="https://github.com/IgorBarduzzi/ergopulse">ergopulse</a></h3>
+      <p>Suíte de visão computacional em tempo real combinando FastAPI, MediaPipe e React. Monitoramento postural, contador de repetições por FSM articular, rastreamento gestual e sintetizador musical espacial.</p>
+      <p><code>Python</code> <code>FastAPI</code> <code>MediaPipe</code> <code>OpenCV</code> <code>React</code> <code>WebSockets</code></p>
+    </td>
+    <td width="50%" valign="top">
       <h3>🖼️ <a href="https://github.com/IgorBarduzzi/headless-og-generator">headless-og-generator</a></h3>
       <p>Microsserviço de alto desempenho desenvolvido em TypeScript/Node.js para geração dinâmica de imagens de pré-visualização (Open Graph) para redes sociais, com arquitetura headless e estratégia de cache.</p>
       <p><code>TypeScript</code> <code>Node.js</code> <code>OpenGraph</code> <code>Cache</code> <code>APIs</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>📋 <a href="https://github.com/IgorBarduzzi/Cadastro">Cadastro</a></h3>
-      <p>Aplicação desktop desenvolvida em Python com CustomTkinter e SQLite para controle e gestão cadastral de colaboradores, com persistência local e rotina de exportação automatizada para planilhas Excel.</p>
-      <p><code>Python</code> <code>CustomTkinter</code> <code>SQLite</code> <code>Excel Automation</code></p>
     </td>
   </tr>
 </table>
