@@ -1,62 +1,61 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=14,24,38,30,58,138&height=180&section=header&text=Igor%20Barduzzi&fontSize=42&fontAlignY=38&desc=Engenharia%20da%20Computa%C3%A7%C3%A3o%20%7C%20Vis%C3%A3o%20Computacional%20%26%20IA&descFontSize=18&descAlignY=62&fontColor=ffffff" width="100%" alt="Header Igor Barduzzi" />
+  <img src="https://raw.githubusercontent.com/IgorBarduzzi/IgorBarduzzi/main/header.svg" width="100%" alt="Igor Barduzzi - Engenheiro da Computação" />
 </div>
 
 <br/>
 
 ### Olá! 👋 Sou o Igor Barduzzi
 
-Estudante de **Engenharia da Computação** apaixonado por transformar desafios do mundo real em soluções de software eficientes. Minha atuação combina **Inteligência Artificial (modelos locais e voz)**, **Visão Computacional** e arquitetura de sistemas **Backend**.
+**Engenheiro da Computação** e **Desenvolvedor Full Stack & Automação** na **ByStartup**. Atuo no desenvolvimento de soluções de ponta a ponta combinando desenvolvimento web moderno (**TypeScript, React, Next.js, Tailwind CSS**), automação de processos corporativos (**n8n, Python, PostgreSQL**) e soluções aplicadas de **Inteligência Artificial** (modelos locais com Ollama, RAG, pipelines de áudio com Whisper e Visão Computacional com OpenCV e YOLO).
 
 ---
 
-### 🎓 Formação Acadêmica & Conhecimentos
+### 🎓 Formação & Atuação Profissional
 
-- 🏛️ **Graduação em Engenharia da Computação** — *Universidade São Judas Tadeu (USJT)*
-  - Ênfase em arquitetura de computadores, algoritmos, sistemas distribuídos e processamento digital de sinais e imagens.
-- 📚 **Áreas de Estudo & Pesquisa Contínua:**
-  - Visão Computacional aplicada a automação (Detecção de objetos, OCR, filtros adaptativos).
-  - Execução de LLMs e modelos de fala de forma 100% local com foco em baixa latência e privacidade.
-  - Automação de processos empresariais e engenharia de dados (ETL, APIs e microsserviços).
+- 🏛️ **Bacharelado em Engenharia da Computação** — *Universidade São Judas Tadeu (USJT)* `[2021 – 2026 Concluído]`
+- 💼 **Desenvolvedor Full Stack & Automação** — *ByStartup (2024 – Presente)*
+  - Desenvolvimento e arquitetura de aplicações web corporativas (Next.js, React, TypeScript e PostgreSQL).
+  - Construção de pipelines robustos de automação no n8n integrando APIs externas, webhooks e bancos de dados.
+  - Implementação de fluxos de IA generativa com streaming de dados (SSE) e contexto dinâmico (RAG).
 
 ---
 
-### 💻 Projetos em Destaque
+### 🚀 Projetos & Soluções em Destaque
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <h3>🎙️ <a href="https://github.com/IgorBarduzzi/duzzi-ai-assistant">duzzi-ai-assistant</a></h3>
-      <p>Assistente virtual de voz 100% local e offline. Integra Llama 3 via Ollama, transcrição contínua de áudio com Faster-Whisper, sintetizador de voz neural e interface reativa via WebSockets.</p>
-      <p><code>Python</code> <code>Ollama</code> <code>Whisper</code> <code>WebSockets</code></p>
+      <p>Assistente virtual de voz autônomo e 100% local (offline). Integração de Llama 3 via Ollama, wake word com OpenWakeWord, transcrição contínua com Faster-Whisper, TTS neural e backend assíncrono em Python (asyncio) com WebSockets.</p>
+      <p><code>Python</code> <code>Ollama</code> <code>Faster-Whisper</code> <code>AsyncIO</code> <code>WebSockets</code></p>
     </td>
     <td width="50%" valign="top">
       <h3>🚗 <a href="https://github.com/IgorBarduzzi/license-plate-detection-ocr">license-plate-detection-ocr</a></h3>
-      <p>Pipeline completo para localização, enquadramento e extração de caracteres de placas veiculares em tempo real com YOLO, filtros adaptativos do OpenCV e OCR.</p>
-      <p><code>Python</code> <code>YOLO</code> <code>OpenCV</code> <code>OCR</code></p>
+      <p>Pipeline de visão computacional de ponta a ponta para detecção e reconhecimento automático de placas veiculares (ALPR). Modelos leves de detecção (YOLO), pré-processamento com OpenCV (filtros bilaterais e equalização CLAHE) e OCR adaptativo.</p>
+      <p><code>Python</code> <code>YOLO</code> <code>OpenCV</code> <code>Deep Learning</code> <code>OCR</code></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🖼️ <a href="https://github.com/IgorBarduzzi/headless-og-generator">headless-og-generator</a></h3>
-      <p>Microsserviço de alto desempenho para geração dinâmica de imagens de pré-visualização (Open Graph) para redes sociais, com estratégia de cache e renderização headless.</p>
-      <p><code>TypeScript</code> <code>Node.js</code> <code>Cache</code> <code>OpenGraph</code></p>
+      <h3>⚖️ Plataforma de Perícia & Auditoria com IA</h3>
+      <p>Aplicação web corporativa de auditoria pericial automatizada de contratos. Possui módulo de visão computacional para validação forense de assinaturas (grafoscopia) e motor financeiro com método Newton-Raphson para recálculo de juros e séries BACEN.</p>
+      <p><code>Next.js</code> <code>TypeScript</code> <code>PostgreSQL</code> <code>Python</code> <code>Grafoscopia</code></p>
     </td>
     <td width="50%" valign="top">
-      <h3>📋 <a href="https://github.com/IgorBarduzzi/Cadastro">Cadastro</a></h3>
-      <p>Sistema desenvolvido para controle, persistência e gerenciamento estruturado de dados de colaboradores e funcionários.</p>
-      <p><code>Python</code> <code>CRUD</code> <code>Persistência de Dados</code></p>
+      <h3>🖼️ <a href="https://github.com/IgorBarduzzi/headless-og-generator">headless-og-generator</a></h3>
+      <p>Microsserviço de alto desempenho desenvolvido em TypeScript/Node.js para geração dinâmica de imagens de pré-visualização (Open Graph) para redes sociais, com arquitetura headless e estratégia de cache.</p>
+      <p><code>TypeScript</code> <code>Node.js</code> <code>OpenGraph</code> <code>Cache</code> <code>APIs</code></p>
     </td>
   </tr>
 </table>
 
 ---
 
-### 🛠️ Stack & Tecnologias
+### 🛠️ Tecnologias & Ferramentas
 
 <div align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=py,ts,js,cpp,c,react,nodejs,fastapi,postgres,sqlite,docker,linux,git,github,vscode" alt="Skills" />
+    <img src="https://skillicons.dev/icons?i=ts,react,nextjs,py,nodejs,tailwind,postgres,sqlite,docker,linux,git,github,vscode" alt="Skills" />
   </a>
 </div>
 
@@ -66,11 +65,12 @@ Estudante de **Engenharia da Computação** apaixonado por transformar desafios 
   <summary><b>🔍 Detalhes por categoria técnica</b></summary>
   <br/>
   
-  - **Linguagens:** Python, TypeScript, JavaScript, C/C++
-  - **Visão Computacional & IA:** OpenCV, YOLO, TensorFlow Lite, Ollama (Llama 3), Whisper
-  - **Backend & APIs:** FastAPI, Node.js, WebSockets, REST APIs, GraphQL
-  - **Bancos de Dados & Dados:** PostgreSQL, SQLite, Modelagem Relacional, Pipelines ETL
-  - **Infraestrutura & Ferramentas:** Docker, Git/GitHub, Linux/Bash, VS Code
+  - **Linguagens:** TypeScript, JavaScript, Python, SQL, C/C++
+  - **Frontend:** React, Next.js, Tailwind CSS, Componentização UI
+  - **Backend & APIs:** Node.js, Express, FastAPI, RESTful APIs, WebSockets, Webhooks
+  - **Inteligência Artificial & Visão:** Ollama (Llama 3), Faster-Whisper, OpenCV, YOLO, RAG, OpenAI API
+  - **Automação & Dados:** n8n, Pipelines ETL, RPA (Selenium), PostgreSQL, SQLite, Prisma ORM
+  - **Infraestrutura & Ambiente:** Docker, Linux/Bash, Git/GitHub, VS Code
 </details>
 
 ---
@@ -84,14 +84,14 @@ Estudante de **Engenharia da Computação** apaixonado por transformar desafios 
 
 ---
 
-### 🤝 Conecte-se comigo
+### 📫 Contato & Conexão
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/igorbarduzzi" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  <a href="mailto:igorgustavodsantos@gmail.com">
+    <img src="https://img.shields.io/badge/E--mail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   &nbsp;&nbsp;
-  <a href="mailto:igor@bystartup.com.br">
-    <img src="https://img.shields.io/badge/E--mail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  <a href="https://github.com/IgorBarduzzi">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
 </p>
