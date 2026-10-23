@@ -1,107 +1,108 @@
-<svg width="850" height="200" viewBox="0 0 850 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="850" height="180" viewBox="0 0 850 180" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <!-- Background Gradient -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="0%" stop-color="#0a0e17" />
       <stop offset="50%" stop-color="#111827" />
-      <stop offset="100%" stop-color="#070a11" />
+      <stop offset="100%" stop-color="#080c14" />
     </linearGradient>
 
-    <!-- Glowing Accent Gradient -->
+    <!-- Accent Gradient Line -->
     <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#38bdf8" />
-      <stop offset="50%" stop-color="#818cf8" />
-      <stop offset="100%" stop-color="#c084fc" />
+      <stop offset="60%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#a855f7" />
     </linearGradient>
 
-    <!-- Subtle Grid Pattern -->
-    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
-      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#1f2937" stroke-width="0.8" stroke-opacity="0.6"/>
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#1e293b" stroke-width="0.7" stroke-opacity="0.5"/>
     </pattern>
 
-    <!-- Glow Filter -->
+    <!-- Ambient Glow -->
     <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="15" result="blur" />
+      <feGaussianBlur stdDeviation="20" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
     </filter>
   </defs>
 
   <style>
     .title {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-      font-weight: 800;
-      font-size: 34px;
-      fill: #ffffff;
-      letter-spacing: -0.5px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      font-weight: 700;
+      font-size: 32px;
+      fill: #f8fafc;
+      letter-spacing: -0.6px;
     }
-    .badge-title {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    .badge-label {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
       font-weight: 600;
-      font-size: 13px;
+      font-size: 11px;
       fill: #38bdf8;
-      letter-spacing: 1.5px;
+      letter-spacing: 1.8px;
       text-transform: uppercase;
     }
     .subtitle {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
       font-weight: 400;
-      font-size: 15px;
+      font-size: 14px;
       fill: #94a3b8;
+      letter-spacing: 0.1px;
     }
-    .tag {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    .chip-text {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
       font-weight: 500;
       font-size: 11px;
       fill: #cbd5e1;
     }
   </style>
 
-  <!-- Background Base -->
-  <rect width="850" height="200" rx="14" fill="url(#bgGrad)" />
-  <rect width="850" height="200" rx="14" fill="url(#grid)" />
+  <!-- Container Base -->
+  <rect width="850" height="180" rx="12" fill="url(#bgGrad)" />
+  <rect width="850" height="180" rx="12" fill="url(#grid)" />
 
-  <!-- Ambient Glow Blobs -->
-  <circle cx="750" cy="40" r="80" fill="#38bdf8" opacity="0.12" filter="url(#glow)" />
-  <circle cx="100" cy="160" r="70" fill="#818cf8" opacity="0.1" filter="url(#glow)" />
+  <!-- Ambient Light Accents -->
+  <circle cx="760" cy="30" r="70" fill="#38bdf8" opacity="0.10" filter="url(#glow)" />
+  <circle cx="120" cy="150" r="60" fill="#818cf8" opacity="0.08" filter="url(#glow)" />
 
-  <!-- Border Highlight -->
-  <rect x="1" y="1" width="848" height="198" rx="13" fill="none" stroke="#334155" stroke-width="1.2" stroke-opacity="0.6"/>
+  <!-- Border -->
+  <rect x="1" y="1" width="848" height="178" rx="11" fill="none" stroke="#334155" stroke-width="1" stroke-opacity="0.6"/>
 
-  <!-- Left Accent Strip -->
-  <rect x="0" y="25" width="4" height="150" rx="2" fill="url(#accentGrad)" />
+  <!-- Top Accent Bar -->
+  <rect x="0" y="0" width="850" height="3" rx="1" fill="url(#accentGrad)" />
 
   <!-- Content Block -->
-  <g transform="translate(45, 42)">
-    <!-- Category Pill / Badge -->
-    <text x="0" y="0" class="badge-title">ENGENHARIA DA COMPUTAÇÃO</text>
+  <g transform="translate(42, 34)">
+    <!-- Small Category Label -->
+    <text x="0" y="0" class="badge-label">ENGENHARIA DA COMPUTAÇÃO</text>
 
-    <!-- Main Name -->
-    <text x="0" y="38" class="title">Igor Barduzzi</text>
+    <!-- Full Name -->
+    <text x="0" y="34" class="title">Igor Barduzzi</text>
 
-    <!-- Subtitle / Focus -->
-    <text x="0" y="66" class="subtitle">Desenvolvedor Full Stack &amp; Automação  •  Visão Computacional &amp; IA</text>
+    <!-- Subtitle -->
+    <text x="0" y="60" class="subtitle">Visão Computacional  •  Inteligência Artificial Aplicada  •  Desenvolvimento Full Stack</text>
 
     <!-- Tech Chips Container -->
-    <g transform="translate(0, 88)">
-      <!-- Chip 1: TypeScript & React -->
-      <rect x="0" y="0" width="130" height="26" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
-      <text x="14" y="17" class="tag">TypeScript • React</text>
+    <g transform="translate(0, 80)">
+      <!-- Chip 1 -->
+      <rect x="0" y="0" width="134" height="24" rx="5" fill="#1e293b" stroke="#334155" stroke-width="0.8"/>
+      <text x="12" y="16" class="chip-text">TypeScript • React</text>
 
-      <!-- Chip 2: Python & IA Local -->
-      <rect x="138" y="0" width="138" height="26" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
-      <text x="152" y="17" class="tag">Python • IA Local</text>
+      <!-- Chip 2 -->
+      <rect x="142" y="0" width="130" height="24" rx="5" fill="#1e293b" stroke="#334155" stroke-width="0.8"/>
+      <text x="12" y="16" transform="translate(142, 0)" class="chip-text">Python • OpenCV</text>
 
-      <!-- Chip 3: Visão Computacional -->
-      <rect x="284" y="0" width="144" height="26" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
-      <text x="296" y="17" class="tag">OpenCV • YOLO ALPR</text>
+      <!-- Chip 3 -->
+      <rect x="280" y="0" width="138" height="24" rx="5" fill="#1e293b" stroke="#334155" stroke-width="0.8"/>
+      <text x="12" y="16" transform="translate(280, 0)" class="chip-text">MediaPipe • YOLO</text>
 
-      <!-- Chip 4: Automação & n8n -->
-      <rect x="436" y="0" width="132" height="26" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
-      <text x="448" y="17" class="tag">n8n • Pipelines ETL</text>
+      <!-- Chip 4 -->
+      <rect x="426" y="0" width="144" height="24" rx="5" fill="#1e293b" stroke="#334155" stroke-width="0.8"/>
+      <text x="12" y="16" transform="translate(426, 0)" class="chip-text">FastAPI • Node.js</text>
 
-      <!-- Chip 5: PostgreSQL -->
-      <rect x="576" y="0" width="94" height="26" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
-      <text x="588" y="17" class="tag">PostgreSQL</text>
+      <!-- Chip 5 -->
+      <rect x="578" y="0" width="118" height="24" rx="5" fill="#1e293b" stroke="#334155" stroke-width="0.8"/>
+      <text x="12" y="16" transform="translate(578, 0)" class="chip-text">PostgreSQL • n8n</text>
     </g>
   </g>
 </svg>
