@@ -68,8 +68,4 @@ Microsserviço em TypeScript e Fastify para geração dinâmica de imagens Open 
   <a href="mailto:igorgustavodsantos@gmail.com">
     <img src="https://img.shields.io/badge/E--mail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/IgorBarduzzi">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
 </p>
