@@ -1,57 +1,46 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/IgorBarduzzi/IgorBarduzzi/main/header.svg" width="100%" alt="Igor Barduzzi - Engenheiro da Computação" />
+  <img src="https://raw.githubusercontent.com/IgorBarduzzi/IgorBarduzzi/main/header.svg" width="100%" alt="Igor Barduzzi - Engenharia da Computação" />
 </div>
 
 <br/>
 
-### Olá! 👋 Sou o Igor Barduzzi
+### Igor Barduzzi
 
-**Engenheiro da Computação** e **Desenvolvedor Full Stack & Automação**. Atuo no desenvolvimento de soluções de ponta a ponta combinando desenvolvimento web moderno (**TypeScript, React, Next.js, Tailwind CSS**), automação de processos (**n8n, Python, PostgreSQL**) e soluções aplicadas de **Inteligência Artificial** (modelos locais com Ollama, RAG, pipelines de áudio com Whisper e Visão Computacional com OpenCV e YOLO).
+Engenheiro da Computação e Desenvolvedor Full Stack com foco em desenvolvimento web moderno, automação de processos e Inteligência Artificial aplicada (modelos locais e visão computacional).
 
 ---
 
-### 🎓 Formação & Atuação Profissional
+### Atuação & Formação
 
-- 🏛️ **Bacharelado em Engenharia da Computação** — *Universidade São Judas Tadeu (USJT)*
-- 💼 **Desenvolvedor Full Stack & Automação**
-  - Desenvolvimento e arquitetura de aplicações web corporativas (Next.js, React, TypeScript e PostgreSQL).
-  - Construção de pipelines robustos de automação no n8n integrando APIs externas, webhooks e bancos de dados.
+- **Bacharelado em Engenharia da Computação** — Universidade São Judas Tadeu (USJT)
+- **Desenvolvimento Full Stack & Automação**
+  - Desenvolvimento e arquitetura de aplicações web corporativas (Next.js, React, TypeScript, PostgreSQL).
+  - Construção de pipelines de automação no n8n integrando APIs externas, webhooks e bancos relacionais.
   - Implementação de fluxos de IA generativa com streaming de dados (SSE) e contexto dinâmico (RAG).
 
 ---
 
-### 🚀 Projetos em Destaque
+### Projetos Selecionados
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🎙️ <a href="https://github.com/IgorBarduzzi/duzzi-ai-assistant">duzzi-ai-assistant</a></h3>
-      <p>Assistente virtual de voz autônomo e 100% local (offline). Integração de Llama 3 via Ollama, wake word com OpenWakeWord, transcrição contínua com Faster-Whisper, TTS neural e backend assíncrono em Python (asyncio) com WebSockets.</p>
-      <p><code>Python</code> <code>Ollama</code> <code>Faster-Whisper</code> <code>AsyncIO</code> <code>WebSockets</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🚗 <a href="https://github.com/IgorBarduzzi/license-plate-detection-ocr">license-plate-detection-ocr</a></h3>
-      <p>Pipeline de visão computacional de ponta a ponta para detecção e reconhecimento automático de placas veiculares (ALPR). Modelos leves de detecção (YOLO), pré-processamento com OpenCV (filtros bilaterais e equalização CLAHE) e OCR adaptativo.</p>
-      <p><code>Python</code> <code>YOLO</code> <code>OpenCV</code> <code>Deep Learning</code> <code>OCR</code></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>⚡ <a href="https://github.com/IgorBarduzzi/ergopulse">ergopulse</a></h3>
-      <p>Suíte de visão computacional em tempo real combinando FastAPI, MediaPipe e React. Monitoramento postural, contador de repetições por FSM articular, rastreamento gestual e sintetizador musical espacial.</p>
-      <p><code>Python</code> <code>FastAPI</code> <code>MediaPipe</code> <code>OpenCV</code> <code>React</code> <code>WebSockets</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🖼️ <a href="https://github.com/IgorBarduzzi/headless-og-generator">headless-og-generator</a></h3>
-      <p>Microsserviço de alto desempenho desenvolvido em TypeScript/Node.js para geração dinâmica de imagens de pré-visualização (Open Graph) para redes sociais, com arquitetura headless e estratégia de cache.</p>
-      <p><code>TypeScript</code> <code>Node.js</code> <code>OpenGraph</code> <code>Cache</code> <code>APIs</code></p>
-    </td>
-  </tr>
-</table>
+#### [ergopulse](https://github.com/IgorBarduzzi/ergopulse)
+Suíte de visão computacional em tempo real combinando FastAPI, MediaPipe e React. Análise postural e prevenção de fadiga (CVA/EAR), contador de repetições por máquina de estados finitos (FSM), rastreamento gestual e sintetizador musical espacial.  
+`Python` `FastAPI` `MediaPipe` `OpenCV` `React` `TypeScript` `WebSockets`
+
+#### [duzzi-ai-assistant](https://github.com/IgorBarduzzi/duzzi-ai-assistant)
+Assistente virtual de voz autônomo e 100% local (offline). Raciocínio local com Llama 3 via Ollama, detecção contínua de wake word (OpenWakeWord), transcrição em tempo real com Faster-Whisper, TTS neural e backend assíncrono em Python com WebSockets.  
+`Python` `Ollama` `Faster-Whisper` `AsyncIO` `WebSockets`
+
+#### [license-plate-detection-ocr](https://github.com/IgorBarduzzi/license-plate-detection-ocr)
+Pipeline de visão computacional para detecção e leitura automática de placas veiculares (ALPR). Modelos leves YOLO, pré-processamento adaptativo com OpenCV (CLAHE e filtros bilaterais) e leitura OCR integrada com validação de padrão Mercosul e Tradicional.  
+`Python` `YOLO` `OpenCV` `Deep Learning` `OCR`
+
+#### [headless-og-generator](https://github.com/IgorBarduzzi/headless-og-generator)
+Microsserviço em TypeScript e Fastify para geração dinâmica de imagens Open Graph sob demanda. Renderização via Satori e Resvg, arquitetura headless e cache multi-tier com proteção single-flight contra cache stampede.  
+`TypeScript` `Node.js` `Fastify` `Satori` `Docker`
 
 ---
 
-### 🛠️ Tecnologias & Ferramentas
+### Tecnologias & Ferramentas
 
 <div align="center">
   <a href="https://skillicons.dev">
@@ -61,30 +50,15 @@
 
 <br/>
 
-<details>
-  <summary><b>🔍 Detalhes por categoria técnica</b></summary>
-  <br/>
-  
-  - **Linguagens:** TypeScript, JavaScript, Python, SQL, C/C++
-  - **Frontend:** React, Next.js, Tailwind CSS, Componentização UI
-  - **Backend & APIs:** Node.js, Express, FastAPI, RESTful APIs, WebSockets, Webhooks
-  - **Inteligência Artificial & Visão:** Ollama (Llama 3), Faster-Whisper, OpenCV, YOLO, RAG, OpenAI API
-  - **Automação & Dados:** n8n, Pipelines ETL, RPA (Selenium), PostgreSQL, SQLite, Prisma ORM
-  - **Infraestrutura & Ambiente:** Docker, Linux/Bash, Git/GitHub, VS Code
-</details>
+- **Linguagens & Web:** TypeScript, JavaScript, Python, SQL, C/C++
+- **Frontend:** React, Next.js, Tailwind CSS
+- **Backend & APIs:** Node.js, Fastify, FastAPI, WebSockets, RESTful APIs
+- **IA & Visão Computacional:** OpenCV, YOLO, MediaPipe, Ollama (Llama 3), Faster-Whisper
+- **Dados & Infraestrutura:** PostgreSQL, SQLite, Prisma ORM, Docker, Linux, Git
 
 ---
 
-### 📊 Estatísticas do GitHub
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=IgorBarduzzi&show_icons=true&theme=github_dark&hide_border=true&count_private=true" height="150" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=IgorBarduzzi&layout=compact&theme=github_dark&hide_border=true" height="150" alt="Top Languages" />
-</div>
-
----
-
-### 📫 Contato & Conexão
+### Contato
 
 <p align="center">
   <a href="https://www.linkedin.com/in/igor-barduzzi-10a149215/" target="_blank">
