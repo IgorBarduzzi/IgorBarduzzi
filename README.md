@@ -12,8 +12,8 @@
 
 ### 🎓 Formação & Atuação Profissional
 
-- 🏛️ **Bacharelado em Engenharia da Computação** — *Universidade São Judas Tadeu (USJT)* `[2021 – 2026 Concluído]`
-- 💼 **Desenvolvedor Full Stack & Automação** — *ByStartup (2024 – Presente)*
+- 🏛️ **Bacharelado em Engenharia da Computação** — *Universidade São Judas Tadeu (USJT)*
+- 💼 **Desenvolvedor Full Stack & Automação**
   - Desenvolvimento e arquitetura de aplicações web corporativas (Next.js, React, TypeScript e PostgreSQL).
   - Construção de pipelines robustos de automação no n8n integrando APIs externas, webhooks e bancos de dados.
   - Implementação de fluxos de IA generativa com streaming de dados (SSE) e contexto dinâmico (RAG).
