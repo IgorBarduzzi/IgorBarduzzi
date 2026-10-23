@@ -6,7 +6,7 @@
 
 ### Olá! 👋 Sou o Igor Barduzzi
 
-**Engenheiro da Computação** e **Desenvolvedor Full Stack & Automação** na **ByStartup**. Atuo no desenvolvimento de soluções de ponta a ponta combinando desenvolvimento web moderno (**TypeScript, React, Next.js, Tailwind CSS**), automação de processos corporativos (**n8n, Python, PostgreSQL**) e soluções aplicadas de **Inteligência Artificial** (modelos locais com Ollama, RAG, pipelines de áudio com Whisper e Visão Computacional com OpenCV e YOLO).
+**Engenheiro da Computação** e **Desenvolvedor Full Stack & Automação**. Atuo no desenvolvimento de soluções de ponta a ponta combinando desenvolvimento web moderno (**TypeScript, React, Next.js, Tailwind CSS**), automação de processos (**n8n, Python, PostgreSQL**) e soluções aplicadas de **Inteligência Artificial** (modelos locais com Ollama, RAG, pipelines de áudio com Whisper e Visão Computacional com OpenCV e YOLO).
 
 ---
 
@@ -20,7 +20,7 @@
 
 ---
 
-### 🚀 Projetos & Soluções em Destaque
+### 🚀 Projetos em Destaque
 
 <table>
   <tr>
@@ -37,14 +37,14 @@
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>⚖️ Plataforma de Perícia & Auditoria com IA</h3>
-      <p>Aplicação web corporativa de auditoria pericial automatizada de contratos. Possui módulo de visão computacional para validação forense de assinaturas (grafoscopia) e motor financeiro com método Newton-Raphson para recálculo de juros e séries BACEN.</p>
-      <p><code>Next.js</code> <code>TypeScript</code> <code>PostgreSQL</code> <code>Python</code> <code>Grafoscopia</code></p>
-    </td>
-    <td width="50%" valign="top">
       <h3>🖼️ <a href="https://github.com/IgorBarduzzi/headless-og-generator">headless-og-generator</a></h3>
       <p>Microsserviço de alto desempenho desenvolvido em TypeScript/Node.js para geração dinâmica de imagens de pré-visualização (Open Graph) para redes sociais, com arquitetura headless e estratégia de cache.</p>
       <p><code>TypeScript</code> <code>Node.js</code> <code>OpenGraph</code> <code>Cache</code> <code>APIs</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📋 <a href="https://github.com/IgorBarduzzi/Cadastro">Cadastro</a></h3>
+      <p>Aplicação desktop desenvolvida em Python com CustomTkinter e SQLite para controle e gestão cadastral de colaboradores, com persistência local e rotina de exportação automatizada para planilhas Excel.</p>
+      <p><code>Python</code> <code>CustomTkinter</code> <code>SQLite</code> <code>Excel Automation</code></p>
     </td>
   </tr>
 </table>
@@ -87,6 +87,10 @@
 ### 📫 Contato & Conexão
 
 <p align="center">
+  <a href="https://www.linkedin.com/in/igor-barduzzi-10a149215/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  &nbsp;&nbsp;
   <a href="mailto:igorgustavodsantos@gmail.com">
     <img src="https://img.shields.io/badge/E--mail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
